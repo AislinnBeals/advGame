@@ -12,6 +12,7 @@ class Game:
 
         self.character_spritesheet = Spritesheet('img/girl.png')
         self.terrain_spritesheet = Spritesheet('img/terrain.png')
+        self.enemy_spritesheet = Spritesheet()
 
     def createTilemap(self):
         for i, row in enumerate(tilemap):
