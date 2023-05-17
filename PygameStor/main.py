@@ -2,7 +2,8 @@ import pygame
 from sprites import *
 from config import *
 import sys
-
+#create game class to store all 
+#need add enemy sprite and research pos tracking for text bubbles/hit boxes 
 class Game:
     def __init__(self):
         pygame.init()
